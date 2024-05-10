@@ -16,6 +16,9 @@ public class Circle extends Dot {
     }
 
     public int getRadius() {
+
+
+
         return radius;
     }
 }
