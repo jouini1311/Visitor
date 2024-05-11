@@ -8,6 +8,8 @@ public class Circle extends Dot   {
     public Circle(int id, int x, int y, int radius) {
         super(id, x, y);
         this.radius = radius;
+
+
     }
 
     @Override
