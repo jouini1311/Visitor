@@ -2,7 +2,7 @@ package refactoring_guru.visitor.example.shapes;
 
 import refactoring_guru.visitor.example.visitor.Visitor;
 
-public class Circle extends Dot {
+public class Circle extends Dot   {
     private final int radius;
 
     public Circle(int id, int x, int y, int radius) {
@@ -22,6 +22,7 @@ public class Circle extends Dot {
         final int x =  radius;
 
         System.out.println();
+        System.out.println("Example de commit --amend");
         return x;
     }
 }
