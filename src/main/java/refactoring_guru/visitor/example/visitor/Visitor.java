@@ -9,7 +9,7 @@ import refactoring_guru.visitor.example.shapes.Rectangle;
 public interface Visitor {
     String visitDot(Dot dot);
 
-    String visitCircle(Circle  circle);
+    String visitCircle(Circle  circle) ;
 
     String visitRectangle(Rectangle  rectangle);
 
